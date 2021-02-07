@@ -111,35 +111,94 @@ transform: translateY(0.5rem);
     background-color: rgb(155, 9, 9);
 }
 
-
-section {
-    margin-top: 10vh ;
+.main{
+    display: flex;
+    background-color:#0d0d26 ;
 }
+.left-bar {
+    position: fixed;
+    height: 100%;
+    text-align: center;
+    margin-top: 10vh ;
+    color: whitesmoke;
+    padding-left: 0.6rem;
+    padding-right: 2rem;
+    background-color: #0c1a27;
+    
+}
+
+.left-bar-item-first{
+    font-size: 3rem;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.left-bar-item{
+
+    font-size: 2rem;
+    color:whitesmoke;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.left-bar-item-first:hover{
+    color: red;
+    transition: 0.3s ease-out;
+}
+.left-bar-item-first:hover span{
+    color: red;
+    transition: 0.3s ease-out;
+    transform: rotate(-180deg);
+}
+.left-bar-item:hover{
+    color:red;
+    transition: 0.3s ease-out;
+}
+.content{
+    background-color: #0d0d26;
+    margin-top: 14vh;
+    margin-left: 2rem;
+    
+    color: whitesmoke;
+}
+
 
 .footer-container{
     background-color: #212329;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 
 }
 
 .footer{
     
     height: 50vh;
-    background-color: #212329;
+    background-color: #14141f;
     color:whitesmoke;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin:0 auto;
+    margin-left: 23vh;
     padding-top: 1rem;
+    
 }
 
 .footerheading{
     display: flex;
     flex-direction: column;
-    margin-right: 10rem;
-    margin-left: 10rem;
+    justify-content: center;
+    margin-right: 7rem;
+    margin-left: 7rem;
 
+}
+.footerheading h2{
+    text-align: center;
+    border-bottom: 2px solid whitesmoke;
 }
 
 .footerheading h2{
@@ -153,6 +212,7 @@ section {
     text-decoration: none;
     margin-bottom: 0.5rem;
     text-align: center;
+    font-size: 1.5rem;
     
 }
 .footerheading a:hover{
@@ -276,7 +336,7 @@ section {
 .footer{
     
     height: 100vh;
-    background-color: #212329;
+    background-color: #0a1429;
     color:whitesmoke;
     display: flex;
     justify-content: center;
@@ -289,7 +349,7 @@ section {
     .footer{
     
         height: 150vh;
-        background-color: #212329;
+        background-color: #0a1429;
         color:whitesmoke;
         display: flex;
         justify-content: center;
