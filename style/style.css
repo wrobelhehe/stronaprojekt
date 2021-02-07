@@ -163,7 +163,9 @@ transform: translateY(0.5rem);
     background-color: #0d0d26;
     margin-top: 14vh;
     margin-left: 2rem;
-    
+    margin-left: 27vh;
+    margin-right: 3vh;
+    margin-bottom: 4vh;
     color: whitesmoke;
 }
 
@@ -218,6 +220,29 @@ transform: translateY(0.5rem);
 .footerheading a:hover{
     color:yellow;
     transition: 0.3s ease-out;
+}
+
+.content h1{
+    font-size: 4rem;
+}
+.content-photo-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:"70%"; 
+    height:"50%";
+}
+.content-photo-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 80%;
+    height: 70%;
+}
+.content article{
+    padding: 5vh;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 1255px){
