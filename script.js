@@ -15,3 +15,7 @@ menuItem.forEach(item =>{
         }
     });
 });
+
+$('.left-bar-item-first').click(function () {
+    $('.left-bar-items .show').toggleClass("show");
+})
