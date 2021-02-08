@@ -49,11 +49,13 @@ body {
     list-style: none;
     display: flex;
     align-items: center;
+    
 } 
 .nav-menu-items li a {
 font-size: 1.5rem;    
 padding: 0.5em 1em;
 transition: background 0.3s ease-in-out, color 0.2s ease;
+background-color: #0b0e14;
 
 }
 
@@ -129,7 +131,7 @@ section {
 
 
 
-/* -------------------------- */
+
 
 
 
@@ -337,7 +339,7 @@ section {
         right:0 ;
         left: 0;
         height: 100vh;
-        background-color: #1c2330;
+        background-color: #0b0e14;
         transform: translateX(100vw);
         transition: transform 0.2s ease-in-out;
     
