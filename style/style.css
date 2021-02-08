@@ -221,7 +221,10 @@ transform: translateY(0.5rem);
     color:yellow;
     transition: 0.3s ease-out;
 }
-
+.contentHeader{
+    color:  #b3b300;
+    border-bottom: solid 2px  #b3b300;
+}
 .content h1{
     font-size: 4rem;
 }
@@ -243,8 +246,38 @@ transform: translateY(0.5rem);
 .content article{
     padding: 5vh;
     font-size: 1.5rem;
+    
 }
 
+.container{
+    display: flex;   
+    padding: 40px;
+    margin-left: 28vh;
+}
+.container-photo{
+    display: table-column;
+    text-align: center;
+    
+}
+.container-photo h2{
+    padding: 20px;
+    padding-top: 40px;
+    font-size: 3rem;
+}
+
+.container-photo-1{
+    width: 30vh;
+    height: 60vh;
+    margin-right: 50px;
+    transition: 0.3s ease-out;
+    
+}
+.container-photo-1:hover{
+    width: 35vh;
+    height: 65vh;
+    transform: scale(1.1);
+   
+}
 @media (max-width: 1255px){
     .footerheading{
         display: flex;
